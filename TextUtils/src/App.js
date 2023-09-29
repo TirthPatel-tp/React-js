@@ -5,13 +5,6 @@ import About from './components/About';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-// import {
-//   BrowserRouter as Router,
-//   // Switch,sd
-//   Route,
-//   // Link
-// } from "react-router-dom";
-
 
 
 function App() {
@@ -29,18 +22,18 @@ function App() {
 
   }
 
-  function removeBodyClasses() {
-    document.body.classList.remove('bg-light')
-    document.body.classList.remove('bg-dark')
-    document.body.classList.remove('bg-warning')
-    document.body.classList.remove('bg-danger')
-    document.body.classList.remove('bg-success')
-    document.body.classList.remove('bg-primary')
-  }
+  // function removeBodyClasses() {
+  //   document.body.classList.remove('bg-light')
+  //   document.body.classList.remove('bg-dark')
+  //   document.body.classList.remove('bg-warning')
+  //   document.body.classList.remove('bg-danger')
+  //   document.body.classList.remove('bg-success')
+  //   document.body.classList.remove('bg-primary')
+  // }
 
-  const toggleMode = (cls) => {
-    removeBodyClasses();
-    document.body.classList.add('bg-'+cls)
+  const toggleMode = () => {
+    // removeBodyClasses();
+    // document.body.classList.add('bg-'+cls)
     if (mode === 'light') {
       setMode('dark');
       document.body.style.backgroundColor = '#111212';
@@ -64,7 +57,7 @@ function App() {
           </Routes>
           <Routes>
             <Route 
-             exact path="/"
+             path="/"
               element={
                 <TextForm
                   showAlert={showAlert}
