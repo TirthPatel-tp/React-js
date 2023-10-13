@@ -5,7 +5,7 @@ import LinkedIn from '../../img/linkedin.png'
 // import Instagram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
-import boy from '../../img/boy.png'
+import Tirth from '../../img/Tirth.png'
 import thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
@@ -55,7 +55,7 @@ function Intro() {
         <img src={Vector1} alt='blue background' />
         <img src={Vector2} alt='Yellow background' />
         {/* Change photos */}
-        <img src={boy} alt='my pic' />
+        <img src={Tirth} alt='my pic' />
 
         {/* TO add animation on emoji  */}
 

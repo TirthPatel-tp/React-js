@@ -1,10 +1,10 @@
 import React from 'react'
 import './Works.css'
-import Upwork from "../../img/Upwork.png"
-import Filverr from "../../img/fiverr.png"
-import Amazon from "../../img/amazon.png"
-import Shopify from "../../img/Shopify.png"
-import Facebook from "../../img/Facebook.png"
+import Vodafone from "../../img/Vodafone.png"
+import NIT from "../../img/NIT.png"
+import ShreeHari from "../../img/ShreeHari.png"
+import sevenEleven from "../../img/7-11.png"
+import McDonalds from "../../img/McDonalds.png"
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
@@ -54,19 +54,19 @@ function Works() {
 
                 className="w-mainCircle">
                     <div className="w-secCircle">
-                        <img src={Upwork} alt=''/>
+                        <img src={NIT} alt=''/>
                     </div>
                     <div className="w-secCircle">
-                        <img src={Filverr} alt=''/>
+                        <img src={Vodafone} alt=''/>
                     </div>
                     <div className="w-secCircle">
-                        <img src={Amazon} alt=''/>
+                        <img src={ShreeHari} alt=''/>
                     </div>
                     <div className="w-secCircle">
-                        <img src={Shopify} alt=''/>
+                        <img src={McDonalds} alt=''/>
                     </div>
                     <div className="w-secCircle">
-                        <img src={Facebook} alt=''/>
+                        <img src={sevenEleven} alt=''/>
                     </div>
                 </motion.div>
                     {/* Background Circles  */}

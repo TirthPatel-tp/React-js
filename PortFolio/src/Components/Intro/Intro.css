@@ -89,11 +89,10 @@
     top: -4.6rem;
 }
 
-.i-right>:nth-child(3)
-{
+.i-right>:nth-child(3) {
     transform: scale(1);
-    left: 20%;
-    top: -17%;
+    left: 6%;
+    top: -10%;
 }
 
 .i-right>:nth-child(4)
