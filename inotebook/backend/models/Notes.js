@@ -1,7 +1,12 @@
 const mongoose = require('mongoose');
+const { Schema } = mongoose;  
  
 
 const NotesSchema = new Schema({
+   user:{
+      type: mongoose.Schema.Types.ObjectId, // it is kind of foregin key to link user data to the notes 
+      ref: 'user' // using reference from taking last line of Models export name.
+   },
    title: {
     type: String,
     required: true
