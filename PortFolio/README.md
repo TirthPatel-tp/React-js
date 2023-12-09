@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# About Me
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hey there! 👋 I'm Tirth Patel, a Computer Programming & Analysis student based in Toronto, ON. Currently pursuing an Advanced Diploma at Seneca College, I am deeply passionate about programming and technology. As a motivated learner, I specialize in Python, C++, SQL, HTML, JS, CSS, node.js, and data analysis techniques.
 
-## Available Scripts
+## Key Attributes:
 
-In the project directory, you can run:
+- Proficient in Python, C++, SQL, HTML, JS, CSS, node.js, and data analysis.
+- Strong problem-solving abilities with a proactive approach to challenges.
+- Excellent communication and collaboration skills, fostering productive teamwork.
+- Detail-oriented with a focus on delivering high-quality results within deadlines.
+- Continuously seeking opportunities to expand my knowledge and stay updated with the latest industry trends.
 
-### `npm start`
+## Career Objective:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As a dedicated and adaptable college student, my goal is to excel in the field of computer programming and analysis. I am actively seeking co-op opportunities to apply my technical skills, contribute to real-world projects, and elevate team success. With a solid foundation in data analytics, project management, and coding, I am committed to delivering high-quality code, offering technical support, and applying exceptional interpersonal skills.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Let's Connect:
 
-### `npm test`
+I'm always open to exploring collaboration possibilities, connecting with fellow developers, and discussing insights in the field of computer programming and analysis. Feel free to reach out to me if you have any questions, potential opportunities, or if you'd just like to share ideas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📧 Email: pateltirthpatel1011@gmail.com
+🔗 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/tirth-patel-tk/)
+💼 GitHub: [GitHub Profile](https://github.com/TirthPatel-tp)
 
-### `npm run build`
+Looking forward to making meaningful connections and contributing to innovative projects together!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#ComputerScience #Programming #CoopOpportunities #DataAnalysis
