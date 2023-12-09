@@ -18,6 +18,11 @@ TextUtils is a React web application that provides various text manipulation fun
 - Count words and characters
 - Reverse text
 
+Your README looks good! It provides clear information about your project, how to set it up, use it, and contribute to it. The structure is easy to follow, and the instructions are concise.
+
+Just one small suggestion: In the "Installation" section, the code block is not closed. You can fix that by adding the closing backticks. Here's the corrected version:
+
+```markdown
 ## Getting Started
 
 ### Prerequisites
@@ -34,19 +39,30 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/TirthPatel-tp/React-js.git
    cd TextUtils
+   ```
 
 2. Install dependencies:
 
-    npm install
-3. Usage
-  a. Run the development server:
+   ```bash
+   npm install
+   ```
 
-    npm start
-  b.Open your browser and visit http://localhost:3000.
+3. Usage:
 
-  c.Use the various text manipulation features provided by TextUtils.
+   a. Run the development server:
 
-Contributing:
+      ```bash
+      npm start
+      ```
+
+   b. Open your browser and visit [http://localhost:3000](http://localhost:3000).
+
+   c. Use the various text manipulation features provided by TextUtils.
+```
+
+This change ensures that the code blocks are properly closed. Other than that, your README is ready to go!
+
+##  Contributing
  If you want to contribute to TextUtils, follow these steps:
 
 1. Fork the repository.
