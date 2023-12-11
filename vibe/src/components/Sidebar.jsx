@@ -24,7 +24,7 @@ function Sidebar() {
                             <MdSearch />
                             Search
                         </span>
-                    </li>
+                    </li>S
                     <li>
                         <span>
                             <IoLibrary />
@@ -53,7 +53,7 @@ width:100%;
     text-align: center;
     margin: 1rem 0;
     img{
-        max-inline-size:100%
+        max-inline-size:100%;
         block-size:auto;
         margin-top: -4rem;
     }
@@ -64,10 +64,10 @@ ul{
     display:flex;
     flex-direction:column;
     gap: 1rem;
-    padding: 1 rem;
+    padding: 1rem;
     li{
         display: flex;
-        gap:1 rem ;
+        gap:1rem ;
         cursor: pointer;
         transition:0.3s ease-in-out;
         &:hover{

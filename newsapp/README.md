@@ -69,9 +69,9 @@ If you want to contribute to Bharat, follow these steps:
 ## License
 
 This project is not currently licensed. You are free to view, use, and modify the code for personal or educational purposes. However, please note that without a specific license, others may not have the legal permissions usually granted by open source licenses. If you plan to collaborate or distribute this project, it's recommended to add an appropriate open source license to protect your work and define how others can use it.
-```
 
 Feel free to replace "TirthPatel-tp" with your actual GitHub username. If you have any additional details or sections you'd like to add, feel free to modify the file accordingly.
+```
 
 # About Me
 

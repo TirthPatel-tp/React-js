@@ -71,9 +71,9 @@ If you want to contribute to Vibe, follow these steps:
 ## License
 
 This project is not currently licensed. You are free to view, use, and modify the code for personal or educational purposes. However, please note that without a specific license, others may not have the legal permissions usually granted by open source licenses. If you plan to collaborate or distribute this project, it's recommended to add an appropriate open source license to protect your work and define how others can use it.
-```
 
 Feel free to customize this template further based on your specific project details. If you have additional features or sections you'd like to include, you can modify the file accordingly.
+```
 
 
 # About Me
