@@ -18,7 +18,7 @@ function Playlists() {
         },
       });
       const { items } = response.data;
-      console.log(items)
+     
       const playlists = items.map(({ name, id }) => {
         return { name, id };
       });

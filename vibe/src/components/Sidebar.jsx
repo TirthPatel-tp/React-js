@@ -24,7 +24,7 @@ function Sidebar() {
                             <MdSearch />
                             Search
                         </span>
-                    </li>S
+                    </li>
                     <li>
                         <span>
                             <IoLibrary />

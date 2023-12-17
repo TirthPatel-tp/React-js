@@ -1,11 +1,32 @@
-import React from 'react'
-import  styled from "styled-components";
+import React,{useEffect} from 'react'
+  import  styled from "styled-components";
 import Sidebar from './Sidebar';
 import Navbar from './Navbar';
 import Body from './Body';
 import Footer from './Footer';
+import { useStateProvider } from '../utils/StateProvider';
+import axios from 'axios';
+import { reducerCases } from '../utils/Constants';
 
 const Vibe = () =>{
+  const [{ token }, dispatch] = useStateProvider(); // Bringing token from the provider
+
+  useEffect(()=>{
+    const getUserInfo = async ()=>{
+      const{ data }= await axios.get('https://api.spotify.com/v1/me',{
+        headers: {
+          Authorization: 'Bearer ' + token,
+          'Content-Type': 'application/json',
+        },
+      });
+      const userInfo ={
+        userId: data.id,
+        userName: data.display_name,
+      };
+      dispatch({type:reducerCases.SET_USERS, userInfo})
+    };
+    getUserInfo();
+  },[dispatch,token])
   return <Container>
     <div className='vibe_body'>
       <Sidebar/>
