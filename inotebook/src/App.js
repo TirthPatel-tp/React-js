@@ -10,7 +10,7 @@ import About from './components/About';
 import NoteState from './context/notes/NoteState';
 import Alert from './components/Alert';
 import Login from './components/Login/Login';
-import SignUp from './components/SignUp';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
   return (

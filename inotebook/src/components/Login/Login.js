@@ -57,7 +57,7 @@ const Login = () => {
                 <button type='submit' className="btn mt-3" >Login</button>
             </form>
             <div className="text-center fs-6">
-                <a href="#">Forget password?</a> or <a href="#">Sign up</a>
+               Create a new account <a href="/signup">Sign up</a>
             </div>
         </div>
     )
