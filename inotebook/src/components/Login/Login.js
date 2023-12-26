@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import './Login.css'
 import logo from './logo.png'
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+const Login = (props) => {
 
-    const [credentials,setCredentials] = useState({email: "", password:""})
+    const [credentials, setCredentials] = useState({ email: "", password: "" })
 
     let navigate = useNavigate()
 
@@ -18,33 +18,38 @@ const Login = () => {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({email: credentials.email, password: credentials.password})
+            body: JSON.stringify({ email: credentials.email, password: credentials.password })
         });
 
         const json = await response.json()
         console.log(json);
 
-        if(json.success){
+        if (json.success) {
             // save the auth-token and redirect
-            localStorage.setItem('token', json.authtoken);
+            localStorage.setItem('token', json.authToken);
+            props.showAlert("Logged in Successfully", "success")
             navigate('/');
-        }else{
-            alert("Invalid credentials")
+
+        } else {
+            props.showAlert(json.error, "danger")
+            // props.showAlert("Invalid credentials", "danger")
+
         }
     }
 
-    const onChange=(e)=>{
-        setCredentials({...credentials, [e.target.name]: e.target.value})
-      }
+    const onChange = (e) => {
+        setCredentials({ ...credentials, [e.target.name]: e.target.value })
+    }
 
     return (
-        <div className="OuterLine">
+        <div className="OuterLine mt-3">
             <div className="logo">
                 <img src={logo} alt="" />
             </div>
             <div className="text-center mt-4 name">
-                iNotebook
+                iNotebook - Login to see your notes 
             </div>
+
             <form className="p-3 mt-3" onSubmit={handleSubmit}>
                 <div className="form-field d-flex align-items-center">
                     <span className="far fa-user"></span>
@@ -57,7 +62,7 @@ const Login = () => {
                 <button type='submit' className="btn mt-3" >Login</button>
             </form>
             <div className="text-center fs-6">
-               Create a new account <a href="/signup">Sign up</a>
+                Create a new account <a href="/signup">Sign up</a>
             </div>
         </div>
     )

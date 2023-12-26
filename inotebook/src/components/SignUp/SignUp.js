@@ -3,7 +3,7 @@ import './SignUp.css'
 import logo from './logo.png'
 import { useNavigate } from 'react-router-dom'
 
-const SignUp = () => {
+const SignUp = (props) => {
 
   const [credentials,setCredentials] = useState({name: "",email: "", password:"", cpassword:""})
 
@@ -27,10 +27,14 @@ const SignUp = () => {
 
     if(json.success){
       // save the auth-token and redirect
-      localStorage.setItem('token', json.authtoken);
+      localStorage.setItem('token', json.authToken);
       navigate('/');
+    props.showAlert("Account created Successfully", "success")
+
   }else{
-      alert("Invalid credentials")
+    // props.showAlert("Invalid credentials", "danger")
+    props.showAlert(json.error, "danger")
+
   }
         
     
@@ -41,13 +45,13 @@ const onChange=(e)=>{
   }
 
   return (
-    <div className="OuterLine">
+    <div className="OuterLine mt-3">
       <div className="logo">
         <img src={logo} alt="" />
       </div>
       <div className="text-center mt-4 name">
-        iNotebook
-      </div>
+        iNotebook - SignUp to start saving your notes securely
+        </div>
 
       <form className="p-3 mt-3" onSubmit={handleSubmit}>
 

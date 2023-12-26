@@ -1,13 +1,24 @@
 import React from 'react'
 
 function Alert(props) {
-    return (
-        <div>
-            <div className="alert alert-primary" role="alert">
-               {props.message}
-            </div>
+
+    const Capitalize = (word)=>{
+        if(word==="danger") {    //In the alert we are changing the word
+            word = "error";
+        }    
+        const lower= word.toLowerCase();
+        return lower.charAt(0).toUpperCase() + lower.slice(1);
+    }
+  return (
+    
+    <div style={{height: '50px'}}>
+    {props.alert && <div>
+        <div className={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert">
+      <strong> {Capitalize(props.alert.type)}</strong>: {props.alert.msg}
         </div>
-    )
+    </div>}
+    </div>
+  )
 }
 
 export default Alert
