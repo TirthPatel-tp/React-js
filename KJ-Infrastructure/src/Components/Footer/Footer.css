@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer h3 {
+    color: #FFA500;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .orange-background {
+    background-color: #FFA500;
+    color: #000;
+    padding: 30px 0;
+  }
+  
+  .orange-background h3 {
+    color: #000;
+  }
+  
+  .copyright {
+    background-color: #FFA500;
+    color: #000;
+    padding: 10px 0;
+  }
+  

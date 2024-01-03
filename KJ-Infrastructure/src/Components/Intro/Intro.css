@@ -1,0 +1,77 @@
+/* Intro.css */
+
+/* Overall container styling */
+.intro-container {
+    /* padding: 40px; Add padding for breathing space */
+  }
+  
+  /* Left column styling */
+  .left-column {
+    margin-top: 300px;
+    font-size: 90px;
+  }
+  
+  .left-column h2 {
+    font-size: 42px;
+    color: #454749; /* Bootstrap's primary color */
+  }
+  
+  .left-column h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+  }
+  
+  .left-column button {
+    margin: 29px 23px 13px 24px;
+    border-radius: 23px;
+    font-size: 28px;
+  }
+  
+  /* Right column (image) styling */
+  .right-column img {
+    width: 100%; /* Make the image responsive within its container */
+  }
+  
+  /* Main text content styling */
+  .main-content {
+    /* margin: 71px; */
+    font-family: "Poppins", Sans-serif;
+    font-size: 23px;
+    text-align: justify;
+    margin-top: 40px;
+  }
+  
+  .main-content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #09192b;
+  }
+  
+  .main-content p {
+    margin-bottom: 20px;
+  }
+  
+  .main-content strong {
+    color: #080c0f;
+  }
+  
+  .main-content a {
+    color: #efaf0d;
+  }
+
+  .box-sizing{
+    box-sizing: border-box;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .left-column {
+      margin-top: 100px; /* Adjust margin for smaller screens */
+    }
+  
+    .main-content {
+      text-align: left; /* Adjust text alignment for smaller screens */
+    }
+  }
+  
