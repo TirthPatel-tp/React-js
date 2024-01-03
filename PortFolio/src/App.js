@@ -1,13 +1,13 @@
-import Navbar from "./Components/Navbar/Navbar";
-import Intro from "./Components/Intro/intro.jsx";
-import Services from "./Components/Services/services";
+import Navbar from "./components/Navbar/Navbar";
+import Intro from "./components/Intro/Intro";
+import Services from "./components/Services/Services";
 import './App.css'
-import Experience from "./Components/Experience/Experience";
-import Works from "./Components/Works/Works";
-import Portfolio from "./Components/Portfolio/Portfolio";
+import Experience from "./components/Experience/Experience";
+import Works from "./components/Works/Works";
+import Portfolio from "./components/Portfolio/Portfolio";
 // import Testimonial from "./Components/Testimonial/testimonial";
-import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import { themeContext } from "./Context";
 import { useContext } from "react";
 

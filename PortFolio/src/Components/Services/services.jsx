@@ -1,5 +1,5 @@
 import React from 'react'
-import './services.css'
+import './Services.css'
 import HeartEmoji from "../../img/heartemoji.png"
 import Glasses from "../../img/glasses.png"
 import Humble from "../../img/humble.png"

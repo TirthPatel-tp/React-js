@@ -42,7 +42,24 @@
   
   @media screen and (max-width: 480px) {
     .card-details {
-      width: auto;
-    }
+      width: 18rem;
+      height: 10rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      text-align: center;
+      background: rgba(225, 225, 255 , 0.26);
+      border: 7px solid var(--orangeCard);
+      box-shadow: var(--boxShadow);
+      border-radius: 20px;
+      padding: 0px 26px 2rem 26px;
+      margin-left: 7rem;
+      top: 17%;
+      left: 6%;
+      transform: translate(-50%, -50%);
+      background-color: #c9dc51;
+  }
   }
   

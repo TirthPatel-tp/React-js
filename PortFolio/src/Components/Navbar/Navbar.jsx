@@ -1,47 +1,52 @@
-import React from 'react'
-import './Navbar.css'
-import Toggle from '../Toggle/Toggle'
-import {Link} from 'react-scroll';
-
-function Navbar() {
-    return (
-        <div className="n-wrapper">
-            <div className="n-left">
-                <div className="n-name">
-                    Tirth  </div>
-                <Toggle/>
-            </div>
-            <div className="n-right">
-                <div className="n-list">
-                    <ul style={{listStyleType: 'none'}}> 
-                        <Link spy={true} to='Navbar' smooth={true} activeClass='activeClass'>
-                        <li>Home</li>
-                        </Link>
-                        <Link spy={true} to='Services' smooth={true}>
-                        <li>Services</li>
-                        </Link>   
-                        <Link spy={true} to='Experiences' smooth={true}>
-                        <li>Experiences</li>
-                        </Link>
-                        <Link spy={true} to='Portfolio' smooth={true}>
-                        <li>Portfolio</li>
-                        </Link>
-                        {/* <Link spy={true} to='Testimonials' smooth={true}>
-                        <li>Testimonials</li>
-                        </Link>                        */}
-                                           
-                         
-
-                    </ul>
-                </div>
-                <Link spy={true} to='Contact' smooth={true}>
-                <button className="button n-button"> Contact </button>
-
-                </Link>
-                   
-            </div>
+import React from "react";
+import Toggle from "../Toggle/Toggle";
+import "./Navbar.css";
+import { Link } from "react-scroll";
+const navbar = () => {
+  return (
+    <div className="n-wrapper" id="Navbar">
+      {/* left */}
+      <div className="n-left">
+        <div className="n-name">Tirth Patel</div>
+        <Toggle />
+      </div>
+      {/* right */}
+      <div className="n-right">
+        <div className="n-list">
+          <ul style={{ listStyleType: "none" }}>
+            <li>
+              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="services" spy={true} smooth={true}>
+                Serivces
+              </Link>
+            </li>
+            <li>
+              <Link to="works" spy={true} smooth={true}>
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link to="portfolio" spy={true} smooth={true}>
+                Protfolio
+              </Link>
+            </li>
+            <li>
+              <Link to="testimonial" spy={true} smooth={true}>
+                Testimonial
+              </Link>
+            </li>
+          </ul>
         </div>
-    )
-}
+        <Link to="contact" spy={true} smooth={true}>
+        <button className="button n-button">Contact</button>
+        </Link>
+      </div>
+    </div>
+  );
+};
 
-export default Navbar
+export default navbar;

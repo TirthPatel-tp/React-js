@@ -1,17 +1,20 @@
-import React from 'react'
-import './Floating.css'
+import React from "react";
 
-function FloatingDiv({ image, txt1, txt2 }) {
+import './FloatingDiv.css'
+
+
+const FloatinDiv = ({img, text1, text2}) => {
   return (
-    <div className="floatingdiv">
-      <img src={image} alt='' />
+    // darkMode
+    <div className="floatingDiv">
+      <img src={img} alt="" />
       <span>
-        {txt1}
-        <br />
-        {txt2}
+        {text1}
+        <br/>
+        {text2}
       </span>
     </div>
-  )
-}
+  );
+};
 
-export default FloatingDiv
+export default FloatinDiv;

@@ -3,6 +3,8 @@
     display: flex;
     height: 80vh;
     margin-top: 4rem;
+      /* scroll */
+  padding-top: 3rem;
 }
 
 .c-right{
@@ -12,21 +14,23 @@
     flex: 1;
 }
 
-.c-right>form{
+.c-right>form
+{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    
 }
 
 .c-right .user{
     width: 20rem;
     height: 2rem;
-    padding: 0.3rem;
+    padding: 0.3em;
     outline: none;
     border: 2px solid var(--orange);
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 16px;   
 }
 
 textarea{
@@ -35,21 +39,18 @@ textarea{
 
 .c-blur1{
     top: 1rem;
-    left: 45rem;
+    left: 8rem;
 }
 
 @media screen and (max-width: 480px) {
-    .contact-form {
+    .contact-form{
+        padding: 0;
         flex-direction: column;
-        padding: 0 1rem;
-        margin-top: 2rem;
-      }
-    
-      .c-right {
-        order: 1; /* Change order to display c-right above c-left */
-      }
-    
-      .c-right > form {
-        width: 100%;
-      }
-}
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+}   
