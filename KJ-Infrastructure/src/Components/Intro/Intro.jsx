@@ -21,7 +21,7 @@ function Intro() {
             <img
               src={City}
               alt="Big Image"
-              className="img-fuid"
+              className="img-fluid"
             />
           </div>
         </div>

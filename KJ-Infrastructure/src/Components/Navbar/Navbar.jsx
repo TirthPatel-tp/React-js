@@ -20,7 +20,7 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto font-weight-bold">
-                        <li className="nav-item active"><Link to="/" className="nav-link">Home <span className="sr-only">(current)</span></Link></li>
+                        <li className="nav-item "><Link to="/" className="nav-link">Home <span className="sr-only">(current)</span></Link></li>
                         <li className="nav-item"><Link to="/about" className="nav-link">About Us</Link></li>
                         <li className="nav-item"><Link to="/" className="nav-link">Projects</Link></li>
                         <li className="nav-item"><Link to="/" className="nav-link">Contact Us</Link></li>

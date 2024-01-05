@@ -56,13 +56,10 @@ h1 {
 
 
 
-.build {
-    right: 11px;
-}
+
 
 .orange {
-    top: -10px;
-    left: -25px;
+   z-index: 1;
     color: orange;
 }
 
@@ -129,11 +126,15 @@ h1 {
     }
 
     /* Responsive adjustments for the new section */
-    .position-relative,
-    .position-absolute {
-        width: 100%;
-        left: 53px;
+   /* In service.css */
+@media (max-width: 768px) {
+    .service-component .position-relative, 
+    .service-component .position-absolute {
+      width: 100%;
+      left: 41px;
     }
+  }
+  
 
     .contact-info {
         margin-top: 300px;
