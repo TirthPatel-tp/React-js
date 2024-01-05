@@ -13,7 +13,13 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Open Sans', sans-serif; /* Add your preferred font-family */
+  /* font-family:'Lobster', Times, serif; */
+  font-family: "Poppins", Sans-serif;
+  color: #6b6b87;
+
+}
+strong{
+  color: black;
 }
 .App-logo {
   height: 40vmin;

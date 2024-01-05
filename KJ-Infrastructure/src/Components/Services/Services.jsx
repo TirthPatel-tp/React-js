@@ -73,12 +73,14 @@ function Services() {
                         <div className="row">
                             {/* Left side: Overlapping Images */}
                             <div className="col-md-5 image position-relative">
+                             {/* eslint-disable-next-line */}
                                 <img
                                     src={OrangeImage}
                                     alt="Orange Image"
                                     className="img-fluid orange position-absolute top-0 start-0"
                                     style={{ zIndex: -1, left: '-10px', top: '-10px' }} // Adjust the values as needed
                                 />
+                                {/* eslint-disable-next-line */}
                                 <img
                                     src={BuildingImage}
                                     alt="Building Image"

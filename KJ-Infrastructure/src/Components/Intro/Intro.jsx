@@ -17,6 +17,7 @@ function Intro() {
 
           {/* Right side: Big image */}
           <div className="col-md-6">
+          {/* eslint-disable-next-line */}
             <img
               src={City}
               alt="Big Image"
