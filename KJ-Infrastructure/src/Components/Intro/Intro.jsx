@@ -1,13 +1,12 @@
 import React from 'react';
 import City from '../../Img/city-view.png';
-import './Intro.css'; // Import the CSS file
+import './Intro.css';
 
 function Intro() {
   return (
     <div className="intro-container">
       <div className="text-center">
         <div className="row">
-          {/* Left side: Text */}
           <div className="col-md-6 left-column">
             <h2>Introducing </h2>
             <h1> KJ Infrastructure</h1>
@@ -15,9 +14,8 @@ function Intro() {
             <button type="button" className="btn btn-secondary  btn-lg">Contact Us</button>
           </div>
 
-          {/* Right side: Big image */}
           <div className="col-md-6">
-          {/* eslint-disable-next-line */}
+            {/* eslint-disable-next-line */}
             <img
               src={City}
               alt="Big Image"
@@ -29,7 +27,6 @@ function Intro() {
 
       <div className="box-sizing mt-5">
         <div className="row">
-          {/* Left side: Text */}
           <div className="main-content">
             <h1><strong>Welcome to KJ Infrastructure</strong></h1>
             <p>

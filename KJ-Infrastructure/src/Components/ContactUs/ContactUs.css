@@ -1,0 +1,80 @@
+/* ContactUs.css */
+
+.modal-content {
+  margin-top: 80px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.modal-header {
+  background-color: #e7ad4f;
+  color: #000;
+  border-radius: 15px 15px 0 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.modal-header img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.modal-header h5 {
+  margin: 0;
+}
+
+.fa-xmark {
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.form-label {
+  color: #6b6b87;
+}
+
+.form-control {
+  font-family: Poppins, sans-serif;
+  color: #6b6b87;
+  background-color: #fff;
+  border: 1px solid #e7ad4f;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #e7ad4f;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #d39e00;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-submit {
+  background-color: #6EC1E4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.thanks {
+  display: block;
+  margin-top: 10px;
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}

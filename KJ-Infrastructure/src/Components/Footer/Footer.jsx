@@ -1,25 +1,25 @@
-// Footer.jsx
-
 import React from 'react';
-import './Footer.css';  // Import the CSS file for Footer styling
-import Logo from "../../Img/logo.png"
-
+import { Link } from 'react-router-dom';
+import './Footer.css';
+import Logo from "../../Img/logo.png";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer text-white">
       <div className="container">
         <div className="row">
-        <div className="col-md-3">
-            <img src={Logo} alt='Logo' style={{ width: '100%', maxWidth: '150px' }} />
+          <div className="col-md-3">
+            <Link to="/">
+              <img src={Logo} alt='Logo' style={{ width: '100%', maxWidth: '150px' }} />
+            </Link>
           </div>
           <div className="col-md-3">
             <h3>Navigation</h3>
             <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Projects</li>
-              <li>Contact Us</li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/project">Projects</Link></li>
+              <li><Link to="/contact">Contact Us</Link></li>
             </ul>
           </div>
           <div className="col-md-3">
@@ -29,17 +29,16 @@ function Footer() {
             </p>
           </div>
           <div className="col-md-3">
-              <h3>Head Office</h3>
-              <p>
-                KJ infrastructure,
-                Platinum Plazza, Navjivan mill Compound Kalol, Gujarat.
-              </p>
-              <h3>Contact Us</h3>
-              <p>+91 9904449523</p>
-              <h3>Email Us</h3>
-              <p>info@kjinfrastructure.com</p>
-            </div>
-
+            <h3>Head Office</h3>
+            <p>
+              KJ infrastructure,
+              Platinum Plazza, Navjivan mill Compound Kalol, Gujarat.
+            </p>
+            <h3>Contact Us</h3>
+            <p><a href="tel:+919904449523">+91 9904449523</a></p>
+            <h3>Email Us</h3>
+            <p><a href="mailto:info@kjinfrastructure.com">info@kjinfrastructure.com</a></p>
+          </div>
         </div>
       </div>
 

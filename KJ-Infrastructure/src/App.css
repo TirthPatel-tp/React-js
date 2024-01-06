@@ -13,7 +13,6 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* font-family:'Lobster', Times, serif; */
   font-family: "Poppins", Sans-serif;
   color: #6b6b87;
 
@@ -31,6 +30,25 @@ strong{
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.my-element {
+  animation-name: fadeInUp;
+  animation-duration: 1s; 
+  animation-fill-mode: both;
+}
+
+
+
 
 .App-header {
   background-color: #282c34;

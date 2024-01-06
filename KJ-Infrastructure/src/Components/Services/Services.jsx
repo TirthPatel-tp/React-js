@@ -2,7 +2,7 @@ import React from 'react';
 import img1 from "../../Img/1-Construction.png";
 import img2 from "../../Img/2-Residential.png";
 import img3 from "../../Img/3-Commertial.png";
-import './Services.css'; // Import the CSS file
+import './Services.css'; 
 import OrangeImage from "../../Img/BG-Image-4.png"
 import BuildingImage from "../../Img/BG-Image-3.png"
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
@@ -10,13 +10,14 @@ import { FaTasks, FaUsers, FaTrophy, FaSmile } from 'react-icons/fa';
 
 
 function Services() {
+    
     return (
         <div className="services-container">
-            {/* Our Services Section */}
             <div className="services-section">
                 <h1 className="text-center mb-5">Our Services</h1>
 
-                <div className="row">
+                <div className="row ">
+                <div className='row my-element'>
                     <div className="col-md-4">
                         <div className="service-item">
                             <img
@@ -67,18 +68,17 @@ function Services() {
                             </div>
                         </div>
                     </div>
+                    </div>
 
-                    {/* Overlapping Images Section */}
                     <div className="overlapping-section container service-component">
-                        <div className="row">
-                            {/* Left side: Overlapping Images */}
+                        <div className="row my-element">
                             <div className="col-md-5 image position-relative">
                                 {/* eslint-disable-next-line */}
                                 <img
                                     src={OrangeImage}
                                     alt="Orange Image"
                                     className="img-fluid orange position-absolute "
-                                    style={{ zIndex: 0, left: '26px', top: '-10px' }} // Adjust the values as needed
+                                    style={{ zIndex: 0, left: '26px', top: '-10px' }} 
                                 />
                                 {/* eslint-disable-next-line */}
                                 <img
@@ -96,15 +96,13 @@ function Services() {
                                 <p> <FaMapMarkerAlt className='me-2' /> KJ infrastructure, Platinum Plazza, Navjivan mill Compound Kalol, Gujarat.</p>
 
                                 <h1 className="mt-5 mb-4">Contact Us</h1>
-                                <p><FaPhone className="me-2" /> +91 9904449523</p>
+                                <p><FaPhone className="me-2" /><a href="tel:+91 9904449523"> +91 9904449523</a></p>
 
                                 <h1 className="mt-5 mb-4">Email Us</h1>
-                                <p><FaEnvelope className="me-2" /> info@kjinfrastructure.com</p>
+                                <p><FaEnvelope className="me-2" /> <a href="mailto:info@kjinfrastructure.com">info@kjinfrastructure.com</a></p>
                             </div>
                         </div>
                     </div>
-
-                    {/* 5 Years Experience Section */}
 
                     <div className="container experience " style={{ position: 'relative', zIndex: 1 }}>
                         <h1 className="text-center mb-5"> 5 Years Experience</h1>
